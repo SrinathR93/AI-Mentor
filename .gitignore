@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+database/mentor.db
+reports/*.pdf
+!reports/.gitkeep
+.streamlit/secrets.toml
+*.egg-info/
+.DS_Store

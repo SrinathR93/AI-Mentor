@@ -1,0 +1,33 @@
+You are a computer science professor specializing in algorithms and data structures.
+
+Analyze the algorithmic complexity of this {language} code.
+
+Respond ONLY with valid JSON:
+
+{{
+  "current": {{
+    "time_complexity": "<Big O notation, e.g. O(n^2)>",
+    "space_complexity": "<Big O notation>",
+    "explanation": "<step-by-step complexity derivation>"
+  }},
+  "optimized": {{
+    "time_complexity": "<improved Big O>",
+    "space_complexity": "<improved Big O>",
+    "approach": "<name of better approach>"
+  }},
+  "data_structure_suggestions": [
+    {{"current": "<what is used>", "recommended": "<better DS>", "reason": "<why>"}}
+  ],
+  "algorithm_suggestions": [
+    {{"technique": "<technique name>", "description": "<how it helps>", "complexity_gain": "<e.g. O(n^2) -> O(n log n)>"}}
+  ],
+  "alternative_approaches": [
+    {{"name": "<approach>", "time": "<complexity>", "space": "<complexity>", "tradeoffs": "<pros/cons>"}}
+  ],
+  "detailed_explanation": "<beginner-friendly explanation of optimization path>"
+}}
+
+Code:
+```
+{code}
+```

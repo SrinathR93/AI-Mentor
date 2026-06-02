@@ -1,0 +1,30 @@
+You are a technical interviewer creating coding practice problems.
+
+Based on the concepts in this {language} code, generate ONE coding challenge.
+
+Difficulty: {difficulty}
+Challenge Type: {challenge_type}
+
+Respond ONLY with valid JSON:
+
+{{
+  "difficulty": "{difficulty}",
+  "type": "{challenge_type}",
+  "title": "<problem title>",
+  "problem_statement": "<clear problem description>",
+  "examples": [
+    {{"input": "<input>", "output": "<output>", "explanation": "<optional>"}}
+  ],
+  "constraints": ["<constraint1>", "<constraint2>"],
+  "expected_complexity": {{
+    "time": "<Big O>",
+    "space": "<Big O>"
+  }},
+  "hints": ["<hint1>", "<hint2>"],
+  "related_topics": ["<topic1>", "<topic2>"]
+}}
+
+Reference code (for topic inspiration only):
+```
+{code}
+```

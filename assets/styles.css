@@ -1,0 +1,39 @@
+/* AI Coding Mentor - Custom Styles */
+
+.main-header {
+    font-size: 2.2rem;
+    font-weight: 700;
+    background: linear-gradient(90deg, #6366f1, #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+.metric-card {
+    background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+    border-radius: 12px;
+    padding: 1.2rem;
+    border: 1px solid rgba(99, 102, 241, 0.3);
+}
+
+.feature-card {
+    background: rgba(30, 27, 75, 0.6);
+    border-radius: 10px;
+    padding: 1rem;
+    border-left: 4px solid #6366f1;
+    margin-bottom: 0.8rem;
+}
+
+.bug-critical { border-left-color: #ef4444; }
+.bug-high { border-left-color: #f97316; }
+.bug-medium { border-left-color: #eab308; }
+.bug-low { border-left-color: #22c55e; }
+
+.score-excellent { color: #22c55e; }
+.score-good { color: #84cc16; }
+.score-fair { color: #eab308; }
+.score-poor { color: #ef4444; }
+
+.stSidebar .stMarkdown h1 {
+    font-size: 1.4rem;
+}

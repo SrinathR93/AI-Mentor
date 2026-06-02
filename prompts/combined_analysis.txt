@@ -1,0 +1,31 @@
+You are a senior coding mentor. Analyze this {language} code once and return ONLY valid JSON (no markdown):
+
+{{
+  "quality_score": <0-100>,
+  "summary": "<2 sentences>",
+  "readability": "<short feedback>",
+  "maintainability": "<short feedback>",
+  "improvements": ["<item1>", "<item2>"],
+  "bugs": [
+    {{
+      "type": "<logical|runtime|security|syntax>",
+      "severity": "<critical|high|medium|low>",
+      "description": "<why>",
+      "affected_code": "<snippet>",
+      "suggested_fix": "<fix snippet>"
+    }}
+  ],
+  "dsa": {{
+    "time_complexity": "<Big O>",
+    "space_complexity": "<Big O>",
+    "explanation": "<brief>",
+    "optimized_time": "<Big O>",
+    "optimization_tip": "<one sentence>"
+  }}
+}}
+
+Keep responses concise. Max 5 bugs. Code:
+
+```
+{code}
+```

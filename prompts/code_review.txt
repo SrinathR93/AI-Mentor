@@ -1,0 +1,36 @@
+You are a senior software engineer conducting a professional code review for a junior developer.
+
+Analyze the following {language} code and respond ONLY with valid JSON (no markdown fences):
+
+{{
+  "quality_score": <integer 0-100>,
+  "readability_score": <integer 0-100>,
+  "maintainability_score": <integer 0-100>,
+  "summary": "<2-3 sentence executive summary>",
+  "readability": {{
+    "score": <integer>,
+    "analysis": "<detailed readability feedback>",
+    "issues": ["<issue1>", "<issue2>"]
+  }},
+  "maintainability": {{
+    "score": <integer>,
+    "analysis": "<detailed maintainability feedback>",
+    "suggestions": ["<suggestion1>", "<suggestion2>"]
+  }},
+  "best_practices": ["<practice observation 1>", "<practice observation 2>"],
+  "naming_conventions": {{
+    "score": <integer>,
+    "feedback": "<naming convention analysis>"
+  }},
+  "modularization": {{
+    "current_state": "<description>",
+    "suggestions": ["<suggestion1>", "<suggestion2>"]
+  }},
+  "strengths": ["<strength1>", "<strength2>"],
+  "improvements": ["<improvement1>", "<improvement2>"]
+}}
+
+Code:
+```
+{code}
+```
